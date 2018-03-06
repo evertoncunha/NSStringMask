@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char NSStringMaskVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <NSStringMask/PublicHeader.h>
 
-
+#import "UITextFieldMask.h"
+#import "NSStringMask.h"

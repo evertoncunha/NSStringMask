@@ -21,17 +21,18 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		3ED57E1D204F1577003D6796 /* NSStringMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED57E1B204F1577003D6796 /* NSStringMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3ED57E28204F15AE003D6796 /* UITextFieldMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED57E23204F15AE003D6796 /* UITextFieldMask.m */; };
-		3ED57E29204F15AE003D6796 /* NSStringMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED57E24204F15AE003D6796 /* NSStringMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3ED57E2A204F15AE003D6796 /* UITextFieldMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED57E25204F15AE003D6796 /* UITextFieldMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3ED57E2B204F15AE003D6796 /* NSStringMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED57E26204F15AE003D6796 /* NSStringMask.m */; };
+		3ED57E2D204F16AC003D6796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED57E2C204F16AC003D6796 /* UIKit.framework */; };
+		3ED57E2F204F16BA003D6796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED57E2E204F16BA003D6796 /* Foundation.framework */; };
+		3ED57E30204F176A003D6796 /* NSStringMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED57E1B204F1577003D6796 /* NSStringMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ED57E32204F17E1003D6796 /* NSStringMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED57E26204F15AE003D6796 /* NSStringMask.m */; };
+		3ED57E33204F17E3003D6796 /* NSStringMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED57E24204F15AE003D6796 /* NSStringMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7209054117284FBF0091402D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7209053F17284FBF0091402D /* InfoPlist.strings */; };
 		7209054417284FBF0091402D /* NSStringMaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7209054317284FBF0091402D /* NSStringMaskTests.m */; };
 		F230991217346F870028F669 /* CompleteExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F230991117346F870028F669 /* CompleteExtension.m */; };
 		F24E5BA0173833F10006CA92 /* IncompleteExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F24E5B9F173833F10006CA92 /* IncompleteExtension.m */; };
 		F25F360E183BF2D8009D3F47 /* UITextFieldMaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F230990E173460850028F669 /* UITextFieldMaskTests.m */; };
-		F25F3610183BFB8E009D3F47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25F360F183BFB8E009D3F47 /* UIKit.framework */; };
 		F26B29EA17469A4E00E7F3D7 /* CHANGELOG in Resources */ = {isa = PBXBuildFile; fileRef = F26B29E917469A4E00E7F3D7 /* CHANGELOG */; };
 		F2DEFC9C17344A3200B6E00A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7209052917284FBE0091402D /* Foundation.framework */; };
 		F2E39919172AF4ED007F4FC1 /* NSStringMask.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F2E39918172AF4ED007F4FC1 /* NSStringMask.podspec */; };
@@ -45,6 +46,8 @@
 		3ED57E24204F15AE003D6796 /* NSStringMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringMask.h; sourceTree = "<group>"; };
 		3ED57E25204F15AE003D6796 /* UITextFieldMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextFieldMask.h; sourceTree = "<group>"; };
 		3ED57E26204F15AE003D6796 /* NSStringMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringMask.m; sourceTree = "<group>"; };
+		3ED57E2C204F16AC003D6796 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3ED57E2E204F16BA003D6796 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7209052717284FBE0091402D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		7209052817284FBE0091402D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		7209052917284FBE0091402D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -55,10 +58,8 @@
 		F230990E173460850028F669 /* UITextFieldMaskTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UITextFieldMaskTests.m; path = UITextFieldMask/UITextFieldMaskTests.m; sourceTree = "<group>"; };
 		F230991017346F870028F669 /* CompleteExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompleteExtension.h; path = UITextFieldMask/CompleteExtension.h; sourceTree = "<group>"; };
 		F230991117346F870028F669 /* CompleteExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompleteExtension.m; path = UITextFieldMask/CompleteExtension.m; sourceTree = "<group>"; };
-		F23B9FF417344ADE001957D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F24E5B9E173833F10006CA92 /* IncompleteExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IncompleteExtension.h; path = UITextFieldMask/IncompleteExtension.h; sourceTree = "<group>"; };
 		F24E5B9F173833F10006CA92 /* IncompleteExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IncompleteExtension.m; path = UITextFieldMask/IncompleteExtension.m; sourceTree = "<group>"; };
-		F25F360F183BFB8E009D3F47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F26B29E917469A4E00E7F3D7 /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
 		F2E39918172AF4ED007F4FC1 /* NSStringMask.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NSStringMask.podspec; sourceTree = "<group>"; };
 		F2E3992A172AF7D1007F4FC1 /* NSStringMask-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStringMask-Prefix.pch"; sourceTree = "<group>"; };
@@ -69,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ED57E2F204F16BA003D6796 /* Foundation.framework in Frameworks */,
+				3ED57E2D204F16AC003D6796 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +79,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F25F3610183BFB8E009D3F47 /* UIKit.framework in Frameworks */,
 				F2DEFC9C17344A3200B6E00A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,9 +98,9 @@
 		3ED57E21204F15AE003D6796 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3ED57E25204F15AE003D6796 /* UITextFieldMask.h */,
 				3ED57E23204F15AE003D6796 /* UITextFieldMask.m */,
 				3ED57E24204F15AE003D6796 /* NSStringMask.h */,
-				3ED57E25204F15AE003D6796 /* UITextFieldMask.h */,
 				3ED57E26204F15AE003D6796 /* NSStringMask.m */,
 			);
 			name = Classes;
@@ -129,8 +131,8 @@
 		7209052317284FBE0091402D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F25F360F183BFB8E009D3F47 /* UIKit.framework */,
-				F23B9FF417344ADE001957D5 /* UIKit.framework */,
+				3ED57E2E204F16BA003D6796 /* Foundation.framework */,
+				3ED57E2C204F16AC003D6796 /* UIKit.framework */,
 				7209052617284FBE0091402D /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -211,8 +213,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ED57E2A204F15AE003D6796 /* UITextFieldMask.h in Headers */,
-				3ED57E29204F15AE003D6796 /* NSStringMask.h in Headers */,
-				3ED57E1D204F1577003D6796 /* NSStringMask.h in Headers */,
+				3ED57E30204F176A003D6796 /* NSStringMask.h in Headers */,
+				3ED57E33204F17E3003D6796 /* NSStringMask.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ED57E28204F15AE003D6796 /* UITextFieldMask.m in Sources */,
-				3ED57E2B204F15AE003D6796 /* NSStringMask.m in Sources */,
+				3ED57E32204F17E1003D6796 /* NSStringMask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

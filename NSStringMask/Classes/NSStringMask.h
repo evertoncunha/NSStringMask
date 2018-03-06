@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 
 /** [![NSStringMask Version](http://cocoapod-badges.herokuapp.com/v/NSStringMask/badge.png)](http://cocoadocs.org/docsets/NSStringMask) [![NSStringMask Platforms](http://cocoapod-badges.herokuapp.com/p/NSStringMask/badge.svg)](http://cocoadocs.org/docsets/NSStringMask) [![Build Status](https://travis-ci.org/fjcaetano/NSStringMask.png)](https://travis-ci.org/fjcaetano/NSStringMask)
  
