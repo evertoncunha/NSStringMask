@@ -21,13 +21,13 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		3ED57E28204F15AE003D6796 /* UITextFieldMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED57E23204F15AE003D6796 /* UITextFieldMask.m */; };
-		3ED57E2A204F15AE003D6796 /* UITextFieldMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED57E25204F15AE003D6796 /* UITextFieldMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3ED57E2D204F16AC003D6796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED57E2C204F16AC003D6796 /* UIKit.framework */; };
-		3ED57E2F204F16BA003D6796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED57E2E204F16BA003D6796 /* Foundation.framework */; };
-		3ED57E30204F176A003D6796 /* NSStringMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED57E1B204F1577003D6796 /* NSStringMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3ED57E32204F17E1003D6796 /* NSStringMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED57E26204F15AE003D6796 /* NSStringMask.m */; };
-		3ED57E33204F17E3003D6796 /* NSStringMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED57E24204F15AE003D6796 /* NSStringMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ED62E9E204F1C3400E9526A /* FJNSStringMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED62E9C204F1C3400E9526A /* FJNSStringMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ED62EA2204F1C4A00E9526A /* NSStringMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED57E24204F15AE003D6796 /* NSStringMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ED62EA3204F1C4C00E9526A /* UITextFieldMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED57E25204F15AE003D6796 /* UITextFieldMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ED62EA4204F1C5000E9526A /* NSStringMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED57E26204F15AE003D6796 /* NSStringMask.m */; };
+		3ED62EA5204F1C5100E9526A /* UITextFieldMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED57E23204F15AE003D6796 /* UITextFieldMask.m */; };
+		3ED62EA6204F1C5A00E9526A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED57E2E204F16BA003D6796 /* Foundation.framework */; };
+		3ED62EA7204F1C5C00E9526A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED57E2C204F16AC003D6796 /* UIKit.framework */; };
 		7209054117284FBF0091402D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7209053F17284FBF0091402D /* InfoPlist.strings */; };
 		7209054417284FBF0091402D /* NSStringMaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7209054317284FBF0091402D /* NSStringMaskTests.m */; };
 		F230991217346F870028F669 /* CompleteExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F230991117346F870028F669 /* CompleteExtension.m */; };
@@ -39,15 +39,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3ED57E19204F1577003D6796 /* NSStringMask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSStringMask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3ED57E1B204F1577003D6796 /* NSStringMask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStringMask.h; sourceTree = "<group>"; };
-		3ED57E1C204F1577003D6796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3ED57E23204F15AE003D6796 /* UITextFieldMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextFieldMask.m; sourceTree = "<group>"; };
 		3ED57E24204F15AE003D6796 /* NSStringMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringMask.h; sourceTree = "<group>"; };
 		3ED57E25204F15AE003D6796 /* UITextFieldMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextFieldMask.h; sourceTree = "<group>"; };
 		3ED57E26204F15AE003D6796 /* NSStringMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringMask.m; sourceTree = "<group>"; };
 		3ED57E2C204F16AC003D6796 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3ED57E2E204F16BA003D6796 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3ED62E9A204F1C3400E9526A /* FJNSStringMask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FJNSStringMask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED62E9C204F1C3400E9526A /* FJNSStringMask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJNSStringMask.h; sourceTree = "<group>"; };
+		3ED62E9D204F1C3400E9526A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7209052717284FBE0091402D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		7209052817284FBE0091402D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		7209052917284FBE0091402D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,12 +66,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3ED57E15204F1577003D6796 /* Frameworks */ = {
+		3ED62E96204F1C3400E9526A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ED57E2F204F16BA003D6796 /* Foundation.framework in Frameworks */,
-				3ED57E2D204F16AC003D6796 /* UIKit.framework in Frameworks */,
+				3ED62EA6204F1C5A00E9526A /* Foundation.framework in Frameworks */,
+				3ED62EA7204F1C5C00E9526A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,15 +86,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3ED57E1A204F1577003D6796 /* NSStringMask */ = {
-			isa = PBXGroup;
-			children = (
-				3ED57E1B204F1577003D6796 /* NSStringMask.h */,
-				3ED57E1C204F1577003D6796 /* Info.plist */,
-			);
-			path = NSStringMask;
-			sourceTree = "<group>";
-		};
 		3ED57E21204F15AE003D6796 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,13 +98,22 @@
 			path = NSStringMask/Classes;
 			sourceTree = "<group>";
 		};
+		3ED62E9B204F1C3400E9526A /* FJNSStringMask */ = {
+			isa = PBXGroup;
+			children = (
+				3ED62E9C204F1C3400E9526A /* FJNSStringMask.h */,
+				3ED62E9D204F1C3400E9526A /* Info.plist */,
+			);
+			path = FJNSStringMask;
+			sourceTree = "<group>";
+		};
 		7209051617284FBE0091402D = {
 			isa = PBXGroup;
 			children = (
 				F2E3992F172AF7F9007F4FC1 /* Supporting Files */,
 				3ED57E21204F15AE003D6796 /* Classes */,
 				7209053C17284FBF0091402D /* NSStringMaskTests */,
-				3ED57E1A204F1577003D6796 /* NSStringMask */,
+				3ED62E9B204F1C3400E9526A /* FJNSStringMask */,
 				7209052317284FBE0091402D /* Frameworks */,
 				7209052217284FBE0091402D /* Products */,
 			);
@@ -123,7 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				7209053517284FBF0091402D /* NSStringMaskTests.octest */,
-				3ED57E19204F1577003D6796 /* NSStringMask.framework */,
+				3ED62E9A204F1C3400E9526A /* FJNSStringMask.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -208,35 +208,35 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3ED57E16204F1577003D6796 /* Headers */ = {
+		3ED62E97204F1C3400E9526A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ED57E2A204F15AE003D6796 /* UITextFieldMask.h in Headers */,
-				3ED57E30204F176A003D6796 /* NSStringMask.h in Headers */,
-				3ED57E33204F17E3003D6796 /* NSStringMask.h in Headers */,
+				3ED62E9E204F1C3400E9526A /* FJNSStringMask.h in Headers */,
+				3ED62EA3204F1C4C00E9526A /* UITextFieldMask.h in Headers */,
+				3ED62EA2204F1C4A00E9526A /* NSStringMask.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3ED57E18204F1577003D6796 /* NSStringMask */ = {
+		3ED62E99204F1C3400E9526A /* FJNSStringMask */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3ED57E20204F1577003D6796 /* Build configuration list for PBXNativeTarget "NSStringMask" */;
+			buildConfigurationList = 3ED62EA1204F1C3400E9526A /* Build configuration list for PBXNativeTarget "FJNSStringMask" */;
 			buildPhases = (
-				3ED57E14204F1577003D6796 /* Sources */,
-				3ED57E15204F1577003D6796 /* Frameworks */,
-				3ED57E16204F1577003D6796 /* Headers */,
-				3ED57E17204F1577003D6796 /* Resources */,
+				3ED62E95204F1C3400E9526A /* Sources */,
+				3ED62E96204F1C3400E9526A /* Frameworks */,
+				3ED62E97204F1C3400E9526A /* Headers */,
+				3ED62E98204F1C3400E9526A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = NSStringMask;
-			productName = NSStringMask;
-			productReference = 3ED57E19204F1577003D6796 /* NSStringMask.framework */;
+			name = FJNSStringMask;
+			productName = FJNSStringMask;
+			productReference = 3ED62E9A204F1C3400E9526A /* FJNSStringMask.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7209053417284FBF0091402D /* NSStringMaskTests */ = {
@@ -266,7 +266,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Flavio Caetano";
 				TargetAttributes = {
-					3ED57E18204F1577003D6796 = {
+					3ED62E99204F1C3400E9526A = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -286,13 +286,13 @@
 			targets = (
 				7209053417284FBF0091402D /* NSStringMaskTests */,
 				F2E3990C1729A1D8007F4FC1 /* Documentation */,
-				3ED57E18204F1577003D6796 /* NSStringMask */,
+				3ED62E99204F1C3400E9526A /* FJNSStringMask */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3ED57E17204F1577003D6796 /* Resources */ = {
+		3ED62E98204F1C3400E9526A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -341,12 +341,12 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3ED57E14204F1577003D6796 /* Sources */ = {
+		3ED62E95204F1C3400E9526A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ED57E28204F15AE003D6796 /* UITextFieldMask.m in Sources */,
-				3ED57E32204F17E1003D6796 /* NSStringMask.m in Sources */,
+				3ED62EA4204F1C5000E9526A /* NSStringMask.m in Sources */,
+				3ED62EA5204F1C5100E9526A /* UITextFieldMask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +375,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3ED57E1E204F1577003D6796 /* Debug */ = {
+		3ED62E9F204F1C3400E9526A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -415,12 +415,12 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = NSStringMask/Info.plist;
+				INFOPLIST_FILE = FJNSStringMask/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = fjcaetano.NSStringMask;
+				PRODUCT_BUNDLE_IDENTIFIER = fjcaetano.FJNSStringMask;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -430,7 +430,7 @@
 			};
 			name = Debug;
 		};
-		3ED57E1F204F1577003D6796 /* Release */ = {
+		3ED62EA0204F1C3400E9526A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -470,12 +470,12 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = NSStringMask/Info.plist;
+				INFOPLIST_FILE = FJNSStringMask/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = fjcaetano.NSStringMask;
+				PRODUCT_BUNDLE_IDENTIFIER = fjcaetano.FJNSStringMask;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -600,11 +600,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3ED57E20204F1577003D6796 /* Build configuration list for PBXNativeTarget "NSStringMask" */ = {
+		3ED62EA1204F1C3400E9526A /* Build configuration list for PBXNativeTarget "FJNSStringMask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3ED57E1E204F1577003D6796 /* Debug */,
-				3ED57E1F204F1577003D6796 /* Release */,
+				3ED62E9F204F1C3400E9526A /* Debug */,
+				3ED62EA0204F1C3400E9526A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

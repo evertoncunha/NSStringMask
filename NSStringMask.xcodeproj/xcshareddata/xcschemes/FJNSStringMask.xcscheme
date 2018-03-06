@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3ED57E18204F1577003D6796"
-               BuildableName = "NSStringMask.framework"
-               BlueprintName = "NSStringMask"
+               BlueprintIdentifier = "3ED62E99204F1C3400E9526A"
+               BuildableName = "FJNSStringMask.framework"
+               BlueprintName = "FJNSStringMask"
                ReferencedContainer = "container:NSStringMask.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3ED57E18204F1577003D6796"
-            BuildableName = "NSStringMask.framework"
-            BlueprintName = "NSStringMask"
+            BlueprintIdentifier = "3ED62E99204F1C3400E9526A"
+            BuildableName = "FJNSStringMask.framework"
+            BlueprintName = "FJNSStringMask"
             ReferencedContainer = "container:NSStringMask.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +65,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3ED57E18204F1577003D6796"
-            BuildableName = "NSStringMask.framework"
-            BlueprintName = "NSStringMask"
+            BlueprintIdentifier = "3ED62E99204F1C3400E9526A"
+            BuildableName = "FJNSStringMask.framework"
+            BlueprintName = "FJNSStringMask"
             ReferencedContainer = "container:NSStringMask.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
